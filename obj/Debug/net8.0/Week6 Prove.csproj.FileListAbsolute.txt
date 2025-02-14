@@ -1,0 +1,4 @@
+c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.AssemblyInfoInputs.cache
+c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.AssemblyInfo.cs
+c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.csproj.CoreCompileInputs.cache
