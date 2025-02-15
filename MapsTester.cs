@@ -1,15 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
 namespace prove_06
 {
     public static class MapsTester
     {
+        // Entry method to be called in Program.cs
+        public static void Run()
+        {
+            Console.WriteLine("Running MapsTester...\n");
+
+            // Example file path for testing (update this with a valid file path)
+            string filename = "degrees.csv";
+
+            // Test Problem 2: SummarizeDegrees
+            Console.WriteLine("Testing SummarizeDegrees:");
+            var degreeSummary = SummarizeDegrees(filename);
+            foreach (var entry in degreeSummary)
+            {
+                Console.WriteLine($"{entry.Key}: {entry.Value}");
+            }
+
+            Console.WriteLine("\nTesting IsAnagram:");
+            Console.WriteLine($"listen vs silent: {IsAnagram("listen", "silent")}");
+            Console.WriteLine($"hello vs world: {IsAnagram("hello", "world")}");
+        }
+
         // Problem 2: SummarizeDegrees
         private static Dictionary<string, int> SummarizeDegrees(string filename)
         {
             var degrees = new Dictionary<string, int>();
-            foreach (var line in System.IO.File.ReadLines(filename))
+            foreach (var line in File.ReadLines(filename))
             {
                 var fields = line.Split(",");
-                // Todo Problem 2 - ADD YOUR CODE HERE
                 if (fields.Length >= 4)
                 {
                     string degree = fields[3].Trim();
@@ -19,22 +44,18 @@ namespace prove_06
                         degrees[degree] = 1;
                 }
             }
-
             return degrees;
         }
 
         // Problem 3: IsAnagram
         private static bool IsAnagram(string word1, string word2)
         {
-            // normalize both words: remove spaces, convert to lowercase
             string normalized1 = new string(word1.Where(c => !char.IsWhiteSpace(c)).ToArray()).ToLower();
             string normalized2 = new string(word2.Where(c => !char.IsWhiteSpace(c)).ToArray()).ToLower();
 
-            // normalized strings are different lengths, they can't be anagrams
             if (normalized1.Length != normalized2.Length)
                 return false;
 
-            //  dictionary to count frequency of each character in first word
             Dictionary<char, int> letterCounts = new Dictionary<char, int>();
             foreach (char c in normalized1)
             {
@@ -44,7 +65,6 @@ namespace prove_06
                     letterCounts[c] = 1;
             }
 
-            // for each character in second word, decrement count in dictionary
             foreach (char c in normalized2)
             {
                 if (!letterCounts.ContainsKey(c))
@@ -54,7 +74,6 @@ namespace prove_06
                     return false;
             }
 
-            // if all counts zero, words are anagrams
             return true;
         }
     }
