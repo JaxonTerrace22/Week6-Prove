@@ -2,3 +2,15 @@ c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\
 c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.AssemblyInfoInputs.cache
 c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.AssemblyInfo.cs
 c:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.csproj.CoreCompileInputs.cache
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\bin\Debug\net8.0\Week6 Prove.exe
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\bin\Debug\net8.0\Week6 Prove.deps.json
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\bin\Debug\net8.0\Week6 Prove.runtimeconfig.json
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\bin\Debug\net8.0\Week6 Prove.dll
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\bin\Debug\net8.0\Week6 Prove.pdb
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.sourcelink.json
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.dll
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\refint\Week6 Prove.dll
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.pdb
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\Week6 Prove.genruntimeconfig.cache
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\obj\Debug\net8.0\ref\Week6 Prove.dll
+C:\Users\jaxon\OneDrive\ProgrammingWithDataStructs\Week6 Prove\bin\Debug\net8.0\census(1).txt

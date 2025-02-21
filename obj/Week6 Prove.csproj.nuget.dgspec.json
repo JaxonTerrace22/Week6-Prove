@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj": {}
+    "C:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj": {
+    "C:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj",
+        "projectUniqueName": "C:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj",
         "projectName": "Week6 Prove",
-        "projectPath": "c:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj",
+        "projectPath": "C:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\Week6 Prove.csproj",
         "packagesPath": "C:\\Users\\jaxon\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\obj\\",
+        "outputPath": "C:\\Users\\jaxon\\OneDrive\\ProgrammingWithDataStructs\\Week6 Prove\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaxon\\AppData\\Roaming\\NuGet\\NuGet.Config"
